@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.titulo {
+    margin-bottom: 50px;
+}
+
+.subTitulo {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.searchBar__input {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.searchButton {
+    font-size: 15px;
+}
+
+.container {
+    width: 80vw;
+}
+
+.container__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    grid-gap: 2rem;
+}
+
+.container__message {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    grid-column: 1/10;
+}
+
+.card {
+    margin-left: 25%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    min-height: 10rem;
+    max-height: 15rem;
+}
+
+.card-name {
+    font-weight: 500;
+    color: black;
+}
+
+.card-price {
+    color: black;
+}
